@@ -38,4 +38,4 @@ class Switcher extends React.Component {
   }
 };
 
-ReactDOM.render(<div><Switcher /><Form /></div>, document.querySelector('#container'));
+ReactDOM.render(<><Switcher /><Form /></>, document.querySelector('#container'));
